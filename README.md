@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Ticket Booking App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Ticket Booking App is a simple React application that allows users to book and manage tickets for various destinations. Users can enter their name, departure address, destination address, departure time, and date to book a ticket. The app also provides functionality to edit and delete existing tickets.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Ticket Booking Form: Users can fill out a form to book a ticket with the following details:
+  - Name: The name of the ticket holder.
+  - Departure Address: The address from where the journey starts.
+  - Destination Address: The address of the destination.
+  - Departure Time: The time of departure.
+  - Date: The date of the journey.
+- Ticket List: All booked tickets are displayed in a list format, showing the ticket details along with options to edit or delete each ticket.
+- Edit Ticket: Users can edit the details of an existing ticket, and the changes are reflected in the ticket list.
+- Delete Ticket: Users can remove a booked ticket from the list.
+- User Feedback: Users receive alerts upon booking a ticket or making changes to a ticket.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Make sure you have Node.js installed on your system.
+2. Clone the repository or download the source code ZIP file.
+3. Open a terminal and navigate to the project directory.
+4. Run the following command to install the required dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+npm install
+```
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. After installing the dependencies, start the development server by running the following command:
 
-### `npm run build`
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Open a web browser and navigate to `http://localhost:3000` to access the Ticket Booking App.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Fill out the ticket booking form with your details, including name, departure address, destination address, departure time, and date.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Click the "Confirm" button to book a new ticket.
 
-### `npm run eject`
+5. Booked tickets will appear in the ticket list below the form, displaying the ticket holder's name, departure and destination addresses, departure time, and date.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+6. To edit a ticket, click the "Edit" button on the corresponding ticket card. Make the necessary changes in the form fields and click the "Confirm Changes" button.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+7. To delete a ticket, click the "Delete" button on the corresponding ticket card.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+8. User feedback alerts will appear upon successful booking or changes.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+[ticketBooking.webm](https://github.com/umar8637/ticket-Booking/assets/114384219/dbc5258a-97f9-4653-bf6a-29cc5442a81b)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
